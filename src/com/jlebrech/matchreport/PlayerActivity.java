@@ -23,7 +23,7 @@ public class PlayerActivity extends ListActivity {
     player.addPlayer("Hello Android Event");
     Cursor cursor = player.getAll();
     
-    // the desired columns to be bound
+ // the desired columns to be bound
     String[] columns = new String[] { PlayerDBHelper.TITLE, PlayerDBHelper.TIME };
     // the XML defined views which the data will be bound to
     int[] to = new int[] { R.id.name_entry, R.id.number_entry };

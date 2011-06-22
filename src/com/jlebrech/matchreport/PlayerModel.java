@@ -43,5 +43,5 @@ public class PlayerModel {
     	  Log.e("Error writing to Player", e.toString());
       }
     }
-
+    
 }
